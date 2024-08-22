@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap:2em;
+  margin:2em;
+ 
+}
+.card{
+  border:2px solid black;
+  padding: 2em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.title,.body{
+  text-transform: capitalize;
+}
+.title{
+  color:blue;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.body{
+  margin-top: 1.5em;
+  font-family: cursive;
+}
